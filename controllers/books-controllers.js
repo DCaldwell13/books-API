@@ -34,7 +34,7 @@ books.delete('/books/:id', (req, res) => {
     })
 })
 
-books.get('/seed', (req, res) => {
+books.get('/books', (req, res) => {
     books.insertMany([{
         "title": "The Shinobi Initiative",
         "description": "The reality-bending adventures of a clandestine service agency in the year 2166",

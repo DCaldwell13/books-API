@@ -10,6 +10,5 @@ const booksSchema = new Schema({
     imageURL: { type: String, required: true }
 })
 
-const books = mongoose.model('books', booksSchema)
-module.exports = books
+module.exports = mongoose.model('books',booksSchema)
 
